@@ -1,3 +1,5 @@
+
+import 'package:flutte_login/screen/homescreen.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -9,20 +11,10 @@ class LoginApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
-      debugShowCheckedModeBanner: false,
-      title: "login page",
-      home: Scaffold(
-        backgroundColor: Colors.black,
-        appBar: AppBar(title:Text('Login Page')),
-        body: Container(
-          decoration: BoxDecoration(
-            image: DecorationImage(
-              image: AssetImage("assets/images/background.jpg"),
-            ),
-          ),
-        ),
-      ),
-    );
+   return MaterialApp(
+    title:"Login App",
+    home: homescreen()
+   );
   }
 }
+
