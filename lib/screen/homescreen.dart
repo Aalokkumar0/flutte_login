@@ -1,4 +1,3 @@
-import 'dart:ffi';
 
 import 'package:flutter/material.dart';
 
@@ -30,7 +29,18 @@ class Homescreen extends StatelessWidget{
               child: Container(
                 height: 200,
                 width: 200,
-                color: Colors.black,
+                color: Colors.blue,
+                child: Center(child: Text("rows",style: TextStyle(color: Colors.white),)),
+              ),
+            ),
+
+             SizedBox(width: 20,),
+
+            Center(
+              child: Container(
+                height: 200,
+                width: 200,
+                color: Colors.red,
                 child: Center(child: Text("rows",style: TextStyle(color: Colors.white),)),
               ),
             ),
@@ -52,7 +62,7 @@ class Homescreen extends StatelessWidget{
               child: Container(
                 height: 200,
                 width: 200,
-                color: Colors.black,
+                color: Colors.pink,
                 child: Center(child: Text("rows",style: TextStyle(color: Colors.white),)),
               ),
             ),
@@ -63,18 +73,7 @@ class Homescreen extends StatelessWidget{
               child: Container(
                 height: 200,
                 width: 200,
-                color: Colors.black,
-                child: Center(child: Text("rows",style: TextStyle(color: Colors.white),)),
-              ),
-            ),
-
-             SizedBox(width: 20,),
-             
-            Center(
-              child: Container(
-                height: 200,
-                width: 200,
-                color: Colors.black,
+                color: Colors.yellow,
                 child: Center(child: Text("rows",style: TextStyle(color: Colors.white),)),
               ),
             )
