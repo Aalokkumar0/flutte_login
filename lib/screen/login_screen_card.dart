@@ -6,8 +6,9 @@ class LoginScreenCard extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Card(
-      color: Colors.brown,
-
+      color: const Color.fromARGB(255, 197, 197, 197),
+      shadowColor:Color.fromARGB(255, 27, 189, 46),
+      surfaceTintColor: const Color.fromARGB(255, 213, 161, 4),
       margin: EdgeInsets.symmetric(horizontal: 16, vertical: 9),
       child: Padding(
         padding: const EdgeInsets.all(18.0),
