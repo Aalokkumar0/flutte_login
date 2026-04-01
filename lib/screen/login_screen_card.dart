@@ -10,6 +10,7 @@ class LoginScreenCard extends StatelessWidget {
       shadowColor:Color.fromARGB(255, 27, 189, 46),
       surfaceTintColor: const Color.fromARGB(255, 213, 161, 4),
       margin: EdgeInsets.symmetric(horizontal: 16, vertical: 9),
+      shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(50)),
       child: Padding(
         padding: const EdgeInsets.all(18.0),
         child: Column(
