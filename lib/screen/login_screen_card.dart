@@ -13,11 +13,11 @@ class LoginScreenCard extends StatelessWidget{
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          Text("Title"),
+          Text("Title",style:TextStyle(fontWeight:FontWeight.w900, fontSize:18),),
           SizedBox(height: 20,),
-          Text("Subtitile"),
+          Text("Subtitile : ",style:TextStyle(fontWeight:FontWeight.w400, fontSize:13),),
           SizedBox(height: 20,),
-          Text("Content"),
+          Text("Content :",style:TextStyle(fontWeight:FontWeight.w400, fontSize:13),),
           SizedBox(height: 20,),
         ],
       ),

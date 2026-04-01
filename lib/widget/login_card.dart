@@ -15,7 +15,8 @@ class _LoginCardScreenState extends State<LoginCardScreen>{
     return Scaffold(
         appBar: AppBar(
             backgroundColor: const Color.fromARGB(255, 0, 0, 0),
-            title: Text("This is Login test ",style: TextStyle(color: Colors.white),),
+            toolbarHeight: 80,
+            title: Center(child: Text("This is Login test ",style: TextStyle(color: Colors.white, fontWeight: FontWeight.w700),)),
         ),
         body: ListView.builder(
             itemCount: 20,
